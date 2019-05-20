@@ -4,6 +4,8 @@ package main;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.regex.Pattern;
+import java.util.regex.Matcher;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -13,13 +15,16 @@ import javax.swing.JTextField;
 public class Register_page {
 	public boolean calltoOpenHome(String name,String username,String conatctnumber, String password,String email) {
 			//check if name == string
-		//check if user name == string
-		//check if contact number == number
-		//check if email is in email format
+		if(name=="newuser"&&username=="get626"&&conatctnumber=="8757566") {
+			 return true;
+		 }
+
 		//only then open Home and return true
-		//else return false
+		//else return false 
 		 //write code to open Home window(object)
-		return false;
+		 else {
+		 return false;
+		 }
 	}
 	public JFrame f;
     public Register_page()

@@ -66,6 +66,10 @@ public class Login_page {
     
     public boolean validateData(String username, String password) {
     	//compare if user is equal to "user" and password is equal to "pass"
+    	if(username=="user" && password=="pass")
+    	{
+    		return true;
+    	}
     	//only the return true and allow them to enter.
     	//TODO Finish data validation
     	
